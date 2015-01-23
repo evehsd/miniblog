@@ -3,3 +3,4 @@ flaskr.db
 .settings*
 .vagrant*
 *.pyc
+.pydevproject
