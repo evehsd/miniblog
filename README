@@ -15,13 +15,13 @@
 
       2. initialize the database with this command:
 
-		. venv/bin/activate
+         . venv/bin/activate
 
          flask --app=flaskr initdb
 
       3. now you can run flaskr:
 
-         flask --app=flaskr run
+         flask --app=flaskr run -h 0.0.0.0 -p 5000
 
          the application will greet you on
          http://localhost:5000/
